@@ -7,8 +7,63 @@ const galleryImages = [
   { id: 2, src: 'https://images.unsplash.com/photo-1497215728101-856f4ea42174?q=80&w=2070&auto=format&fit=crop', category: 'Services' },
   { id: 3, src: 'https://images.unsplash.com/photo-1600880292203-757bb62b4baf?q=80&w=2070&auto=format&fit=crop', category: 'Customers' },
   { id: 4, src: 'https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=2070&auto=format&fit=crop', category: 'Office' },
-  { id: 5, src: 'https://images.unsplash.com/photo-1556761175-5972d9ce9877?q=80&w=1974&auto=format&fit=crop', category: 'Services' },
-  { id: 6, src: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop', category: 'Customers' }
+  { id: 6, src: 'https://images.unsplash.com/photo-1573164713988-8665fc963095?q=80&w=2069&auto=format&fit=crop', category: 'Customers' },
+
+  {
+    id: 1,
+    src: "/shop/Shop-1.jpeg",
+    category: "Office",
+    title: "Shri Computer & Multi Services",
+    titleMr: "श्री कॉम्प्युटर अँड मल्टी सर्व्हिसेस"
+  },
+
+    {
+    id: 1,
+    src: "/shop/Shop-2.jpeg",
+    category: "Office",
+    title: "Shri Computer & Multi Services",
+    titleMr: "श्री कॉम्प्युटर अँड मल्टी सर्व्हिसेस"
+  },
+
+    {
+    id: 1,
+    src: "/shop/Shop-3.jpeg",
+    category: "Office",
+    title: "Shri Computer & Multi Services",
+    titleMr: "श्री कॉम्प्युटर अँड मल्टी सर्व्हिसेस"
+  },
+
+    {
+    id: 1,
+    src: "/shop/Shop-4.jpeg",
+    category: "Office",
+    title: "Shri Computer & Multi Services",
+    titleMr: "श्री कॉम्प्युटर अँड मल्टी सर्व्हिसेस"
+  },
+
+    {
+    id: 1,
+    src: "/shop/Shop-5.jpeg",
+    category: "Office",
+    title: "Shri Computer & Multi Services",
+    titleMr: "श्री कॉम्प्युटर अँड मल्टी सर्व्हिसेस"
+  },
+
+  //   {
+  //   id: 1,
+  //   src: "/shop/Shop-6.jpeg",
+  //   category: "Office",
+  //   title: "Shri Computer & Multi Services",
+  //   titleMr: "श्री कॉम्प्युटर अँड मल्टी सर्व्हिसेस"
+  // },
+
+  //   {
+  //   id: 1,
+  //   src: "/shop/Shop-7.jpeg",
+  //   category: "Office",
+  //   title: "Shri Computer & Multi Services",
+  //   titleMr: "श्री कॉम्प्युटर अँड मल्टी सर्व्हिसेस"
+  // }
 ];
 
 export default function Gallery() {

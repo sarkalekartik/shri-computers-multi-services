@@ -74,7 +74,7 @@ export const govServicesData: GovService[] = [
     ],
     govtFee: '₹33.60',
     serviceCharge: '₹66.40',
-    totalPrice: '₹100',
+    totalPrice: '₹180',
     priceValue: 100,
     estimatedTime: '5-8 Working Days',
     validity: '1 Year (Valid till 31st March)',
@@ -135,7 +135,7 @@ export const govServicesData: GovService[] = [
     ],
     govtFee: '₹33.60',
     serviceCharge: '₹116.40',
-    totalPrice: '₹150',
+    totalPrice: '₹250',
     priceValue: 150,
     estimatedTime: '10-15 Working Days',
     validity: 'Lifetime (आजीवन वैधता)',
@@ -182,7 +182,13 @@ export const govServicesData: GovService[] = [
       'वडिलांचा / आजोबांचा शाळा सोडल्याचा दाखला (जातीची नोंद असलेला)',
       'रक्ताच्या नातेवाईकाचा जातीचा दाखला (वडील/काका/आजोबा)',
       'पुराना ७/१२ / फेरफार उतारा (आवश्यकतेनुसार)',
-      'राशन कार्ड व रहिवासी पुरावा'
+      'राशन कार्ड व रहिवासी पुरावा',
+      'ओबीसी (OBC) — सन १९६७ पूर्वीचा जात पुरावा',
+      'व्ही.जे.एन.टी. (VJNT) — सन १९६१ पूर्वीचा जात पुरावा',
+     'एस.सी. (SC) — सन १९५० पूर्वीचा जात पुरावा',
+     'कुणबी — सन १९२० ते १९३० दरम्यानचा जात पुरावा',
+     'मराठा — सन १९६७ पूर्वीचा जात पुरावा'
+      
     ],
     stepByStepProcess: [
       'Document review and genealogical tree (वंशावळ) drafting',
@@ -192,7 +198,7 @@ export const govServicesData: GovService[] = [
     ],
     govtFee: '₹33.60',
     serviceCharge: '₹166.40',
-    totalPrice: '₹200',
+    totalPrice: '₹600 + 2,500',
     priceValue: 200,
     estimatedTime: '15-21 Working Days',
     validity: 'Lifetime (आजीवन)',
@@ -238,7 +244,13 @@ export const govServicesData: GovService[] = [
       'कॉलेजचे शिफारस पत्र / बोनाफाईड',
       'वंशावळ प्रतिज्ञापत्र (Affidavit)',
       'रक्ताच्या नातेवाईकाचे जात पडताळणी प्रमाणपत्र (असल्यास)',
-      'सरकारी चलन भरलेली पावती'
+      'सरकारी चलन भरलेली पावती',
+      'ओबीसी (OBC) — सन १९६७ पूर्वीचा जात पुरावा',
+      'व्ही.जे.एन.टी. (VJNT) — सन १९६१ पूर्वीचा जात पुरावा',
+     'एस.सी. (SC) — सन १९५० पूर्वीचा जात पुरावा',
+     'कुणबी — सन १९२० ते १९३० दरम्यानचा जात पुरावा',
+     'मराठा — सन १९६७ पूर्वीचा जात पुरावा'
+      
     ],
     stepByStepProcess: [
       'Online registration on CCVIS / BARTI portal',
@@ -304,7 +316,7 @@ export const govServicesData: GovService[] = [
     ],
     govtFee: '₹33.60',
     serviceCharge: '₹116.40',
-    totalPrice: '₹150',
+    totalPrice: '₹300',
     priceValue: 150,
     estimatedTime: '8-12 Working Days',
     validity: '3 Financial Years (३ आर्थिक वर्षे)',
@@ -721,7 +733,7 @@ export const govServicesData: GovService[] = [
     ],
     govtFee: '₹0',
     serviceCharge: '₹100',
-    totalPrice: '₹100 (PVC Print)',
+    totalPrice: '₹150 (PVC Print)',
     priceValue: 100,
     estimatedTime: '15 Minutes',
     validity: 'Lifetime',
@@ -819,5 +831,110 @@ export const govServicesData: GovService[] = [
     faqs: [],
     icon: 'ShieldCheck',
     popular: false
-  }
+  },
+{
+  id: 'pf-epfo-services',
+  title: 'PF / EPFO सर्व सेवा',
+  titleMr: 'PF / EPFO सर्व सेवा',
+  titleHi: 'PF / EPFO सभी सेवाएं',
+  category: 'PF / EPFO Services',
+  categoryKey: 'cat_pf',
+
+  description:
+    'Complete assistance for UAN, PF balance, PF withdrawal, PF transfer, KYC update and EPS pension related services.',
+
+  descriptionMr:
+    'UAN नोंदणी, PF बॅलन्स तपासणी, PF पैसे काढणे, PF ट्रान्सफर, KYC अपडेट आणि EPS पेन्शन संबंधित सेवांसाठी संपूर्ण सहाय्य.',
+
+  purpose:
+    'To provide assistance for eligible EPFO member services through the official EPFO system.',
+
+  purposeMr:
+    'पात्र EPFO सदस्यांना अधिकृत EPFO प्रणालीद्वारे PF व पेन्शन संबंधित सेवा मिळवण्यासाठी सहाय्य करण्यासाठी.',
+
+  benefits: [
+    'UAN Registration / Activation',
+    'PF Balance Check',
+    'PF Withdrawal Online Claim',
+    'PF Transfer',
+    'PF KYC Update',
+    'EPS Pension Services',
+    'Online application assistance',
+    'Application status checking assistance'
+  ],
+
+  eligibility: [
+    'EPFO member with valid UAN',
+    'Applicable KYC details available',
+    'Registered mobile number where required'
+  ],
+
+  requiredDocuments: [
+    'Aadhaar Card',
+    'PAN Card',
+    'UAN Number',
+    'Registered Mobile Number',
+    'Bank Passbook / Cancelled Cheque',
+    'Previous PF Account / Member ID, if applicable',
+    'Current Employer Details, if applicable',
+    'Employment / Pension Details, if applicable'
+  ],
+
+  requiredDocumentsMr: [
+    'आधार कार्ड',
+    'पॅन कार्ड',
+    'UAN नंबर',
+    'नोंदणीकृत मोबाईल नंबर',
+    'बँक पासबुक / कॅन्सल चेक',
+    'जुन्या PF खात्याचा / Member ID चा तपशील, लागू असल्यास',
+    'सध्याच्या नियोक्त्याचा / कंपनीचा तपशील, लागू असल्यास',
+    'नोकरी / पेन्शनचा तपशील, लागू असल्यास'
+  ],
+
+  stepByStepProcess: [
+    'ग्राहकाचे UAN व KYC तपशील तपासणे',
+    'आवश्यक कागदपत्रे व पात्रता तपासणे',
+    'अधिकृत EPFO ऑनलाइन सेवा निवडणे',
+    'आवश्यक माहिती व कागदपत्रे सादर करणे',
+    'OTP / आवश्यक verification पूर्ण करणे',
+    'Online application / claim submit करणे',
+    'Application / claim status तपासणे'
+  ],
+
+  govtFee: '₹0*',
+
+  serviceCharge: '₹100 पासून',
+
+  totalPrice: '₹250 पासून',
+
+  priceValue: 100,
+
+  estimatedTime: 'कामाच्या प्रकारानुसार',
+
+  validity: 'As per EPFO rules',
+
+  faqs: [
+    {
+      question: 'PF सेवा घेण्यासाठी काय लागते?',
+      answer:
+        'आधार कार्ड, PAN, UAN, registered mobile number आणि आवश्यकतेनुसार bank details व employment details लागतात.'
+    },
+    {
+      question: 'PF Withdrawal करता येईल का?',
+      answer:
+        'पात्रता व EPFO च्या लागू नियमांनुसार eligible online claim करता येतो.'
+    },
+    {
+      question: 'PF Transfer करता येतो का?',
+      answer:
+        'पात्र असल्यास जुन्या PF खात्यातील रक्कम सध्याच्या PF खात्यात transfer करण्यासाठी online request करता येते.'
+    }
+  ],
+
+  icon: 'BriefcaseBusiness',
+
+  popular: true
+},
+
+
 ];
